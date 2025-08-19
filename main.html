@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Pricing Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h1 {
+      font-size: 24px;
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .card .price {
+      font-weight: bold;
+      font-size: 20px;
+      color: #2a7ae2;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      background-color: #2a7ae2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    .card button:hover {
+      background-color: #1e5bbf;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x180" alt="Product Image">
+    <h1>Premium Plan</h1>
+    <p class="price">$49/month</p>
+    <p>Get unlimited access to all features, priority support, and exclusive content.</p>
+    <button>Buy Now</button>
+  </div>
 
 </body>
-
 </html>
